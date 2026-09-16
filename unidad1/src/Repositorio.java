@@ -2,8 +2,6 @@ import java.util.Scanner;
 
 public class Repositorio {
     //Funciones de reutilización
-
-    //Las funciones van por fuera del main
     //Función para ingresar un número entero
     public static int ingresarEntero (String mensaje){
         Scanner sc= new Scanner(System.in);

@@ -26,11 +26,11 @@ public class Empresa {
         return bonificacion;
     }
     public static String generarMensaje (double nuevoSalario, double bonificacion){
-        String mensaje="Su salario con el aumento del 10% es "+nuevoSalario+" Y usted tiene una bonificación del ";
+        String mensaje="Su salario con el aumento del "+(int)(PORCENTAJE1*100)+"% es "+nuevoSalario+" Y usted tiene una bonificación del ";
         if (nuevoSalario > TOPE_SALARIO) {
-            mensaje += "10% por lo tanto su nuevo salario es de: "+bonificacion;
+            mensaje += (int)(PORCENTAJE1*100)+"% por lo tanto su nuevo salario es de: "+bonificacion;
         }else{
-            mensaje += "5% por lo tanto su nuevo salario es de: "+bonificacion;
+            mensaje += (int)(PORCENTAJE2*100)+"% por lo tanto su nuevo salario es de: "+bonificacion;
         }
         return  mensaje;
     }

@@ -1,6 +1,7 @@
 public class EstructuraSwtich {
     static void main(String[] args) {
 
+        //Día de la semana
         int dia= Repositorio.ingresarEntero("Ingrese un número: ");
         String mensaje= determinarDia(dia);
         Repositorio.mostrarMensaje(mensaje);

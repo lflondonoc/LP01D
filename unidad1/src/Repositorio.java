@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Repositorio {
@@ -20,7 +21,7 @@ public class Repositorio {
     public static String ingresarTexto (String mensaje){
         Scanner sc= new Scanner(System.in);
         System.out.print(mensaje);
-        String texto= sc.nextLine();
+        String texto= sc.nextLine().toLowerCase();
         return texto;
     }
     //Función para ingresar un caracter

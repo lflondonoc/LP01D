@@ -51,5 +51,37 @@ public class Repositorio {
         }
         return esVocal;
     }
+    //Función para ingresar los elementos de un arreglo de tipo String
+    public static String [] ingresarArregloTexto(int longitud, String mensaje){
+        String [] nuevoArreglo= new String[longitud];
+        for(int i=0; i<longitud; i++){
+            nuevoArreglo[i]= Repositorio.ingresarTexto(mensaje+(i+1)+" de "+longitud+": ");
+        }
+        return nuevoArreglo;
+    }
+    //Función para ingresar los elementos de un arreglo de tipo decimal
+    public static double [] ingresarArregloDecimal(int longitud, String mensaje){
+        double [] nuevoArreglo= new double[longitud];
+        for(int i=0; i<longitud; i++){
+            nuevoArreglo[i]= Repositorio.ingresarDecimal(mensaje+(i+1)+" de "+longitud+": ");
+        }
+        return nuevoArreglo;
+    }
+    //Función para ingresar los elementos de un arreglo de tipo entero
+    public static int [] ingresarArregloEntero(int longitud, String mensaje){
+        int [] nuevoArreglo= new int[longitud];
+        for(int i=0; i<longitud; i++){
+            nuevoArreglo[i]= Repositorio.ingresarEntero(mensaje+(i+1)+" de "+longitud+": ");
+        }
+        return nuevoArreglo;
+    }
+    //Función para ingresar los elementos de un arreglo de tipo booleano
+    public static boolean [] ingresarArregloBoolean(int longitud, String mensaje){
+        boolean [] nuevoArreglo= new boolean[longitud];
+        for(int i=0; i<longitud; i++){
+            nuevoArreglo[i]= Repositorio.ingresarBooleano(mensaje+(i+1)+" de "+longitud+": ");
+        }
+        return nuevoArreglo;
+    }
 
 }

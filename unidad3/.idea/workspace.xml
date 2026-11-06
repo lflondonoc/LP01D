@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c28aafc-2fe6-4b3b-b9b5-5e7f458cae29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MayorEdad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MayorEdad2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MayorEdad3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MayorEdad4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VocalesNombres.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +46,7 @@
     "Application.Notas2.executor": "Run",
     "Application.Notas3.executor": "Run",
     "Application.PracticaArreglos2.executor": "Run",
+    "Application.VocalesNombres.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -69,7 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MayorEdad4">
+  <component name="RunManager" selected="Application.VocalesNombres">
     <configuration name="MayorEdad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MayorEdad" />
       <module name="unidad3" />
@@ -98,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MayorMenor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MayorMenor" />
+    <configuration name="VocalesNombres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VocalesNombres" />
       <module name="unidad3" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VocalesNombres" />
         <item itemvalue="Application.MayorEdad4" />
         <item itemvalue="Application.MayorEdad2" />
         <item itemvalue="Application.MayorEdad" />
         <item itemvalue="Application.MayorEdad3" />
-        <item itemvalue="Application.MayorMenor" />
       </list>
     </recent_temporary>
   </component>

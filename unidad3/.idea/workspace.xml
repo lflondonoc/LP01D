@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c28aafc-2fe6-4b3b-b9b5-5e7f458cae29" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MayorEdad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MayorEdad2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MayorEdad3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MayorEdad4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +40,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MayorEdad.executor": "Run",
+    "Application.MayorEdad2.executor": "Run",
+    "Application.MayorEdad3.executor": "Run",
+    "Application.MayorEdad4.executor": "Run",
     "Application.MayorMenor.executor": "Run",
     "Application.Notas.executor": "Run",
     "Application.Notas2.executor": "Run",
@@ -61,7 +69,35 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MayorMenor">
+  <component name="RunManager" selected="Application.MayorEdad4">
+    <configuration name="MayorEdad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MayorEdad" />
+      <module name="unidad3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayorEdad2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MayorEdad2" />
+      <module name="unidad3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayorEdad3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MayorEdad3" />
+      <module name="unidad3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MayorEdad4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MayorEdad4" />
+      <module name="unidad3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MayorMenor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MayorMenor" />
       <module name="unidad3" />
@@ -69,41 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Notas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Notas" />
-      <module name="unidad3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Notas2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Notas2" />
-      <module name="unidad3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Notas3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Notas3" />
-      <module name="unidad3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PracticaArreglos2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticaArreglos2" />
-      <module name="unidad3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MayorEdad4" />
+        <item itemvalue="Application.MayorEdad2" />
+        <item itemvalue="Application.MayorEdad" />
+        <item itemvalue="Application.MayorEdad3" />
         <item itemvalue="Application.MayorMenor" />
-        <item itemvalue="Application.Notas3" />
-        <item itemvalue="Application.Notas2" />
-        <item itemvalue="Application.Notas" />
-        <item itemvalue="Application.PracticaArreglos2" />
       </list>
     </recent_temporary>
   </component>
